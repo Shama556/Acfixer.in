@@ -1,0 +1,886 @@
+   /* counter start here  */
+   .line {
+    display: inline-block;
+    width: 2px;
+    height: 40px;
+    background: #f64b3c;
+    margin-bottom: -6px;
+    margin-top: 0px;
+  }
+  .black-sec p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Frank Ruhl Libre', serif;
+  }
+  .black-sec span {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Frank Ruhl Libre', serif;
+  }
+  .sec-img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    padding: 16px;
+  }
+  .black-sec {
+    background: linear-gradient(to left, #000000ea, #000000cc),url(../images/iconss/bggggg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px 0px 0px;
+    margin-top: 50px;
+  }
+
+
+  .btn{
+    margin: 0%;
+    padding: 16px 0% ;
+  }
+  
+  
+  /* counter end here  */
+      
+      * {
+          margin: 0%;
+          padding: 0%;
+      }
+  
+      .new-text{
+          color: #fff;
+      }
+  
+      .navv {
+          margin: 0%;
+          list-style-type: none;
+          display: flex;
+          justify-content: space-between;
+          background-color: transparent;
+          padding: 10px;
+          flex-wrap: wrap;
+      }
+  
+      li {
+          text-decoration: none;
+          padding: 10px;
+      }
+  
+      .nav-item a{
+          color: black;
+          font-size: 16px;
+          font-weight: 500;
+      }
+  
+      .navv-main{
+          background-color: #6dbfd3 ;
+      }
+  
+      li a {
+          text-decoration: none;
+      }
+  
+      .enq-btn {
+          background-color: #6dbfd3;
+          color: #fff;
+          /* width: 170px; */
+          padding: 8px 20px;
+          border-radius: 20px;
+          border: none;
+      }
+  
+      .enq-btn:hover {
+          background-color: #6dbfd3;
+          color: #fff;
+      }
+  
+      .nav-1-1 {
+          display: flex;
+          gap: 15px;
+      }
+  
+      .nav-1-1 a{
+          color: #fff;
+      }
+  
+      .nav-1-2 {
+          display: flex;
+          gap: 10px;
+      }
+  
+      .nav-1-2 li a{
+          color: #fff;
+      }
+  
+      .back-images {
+          background: linear-gradient(to left, #000000ea, #000000cc), url("https://www.acfixer.in/assets/images/iconss/bggggg.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 250px;
+          display: flex;
+          flex-wrap: wrap;
+      }
+  
+      .back-main {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-wrap: wrap;
+          height: 250px;
+          color: #fff;
+      }
+  
+      .back-boxx {
+          display: grid;
+          place-items: center;
+      }
+  
+  
+      .back-img-1 {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          background-color: rgb(255, 255, 255);
+      }
+  
+      .back-img-1 img {
+          border-radius: 50%;
+          padding: 10px;
+      }
+  
+      .product{
+         padding: 30px;
+      }
+  
+      .img-box{
+          width: 100%;
+      }
+  
+      .about-btn a{
+        text-decoration: none;
+      }
+  
+  
+      .system {
+          background: url("https://www.acfixer.in/assets/images/about/bg-4.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          color: rgb(68, 198, 201);
+          font-size: 19px;
+          /* font-weight: 500; */
+          height: 315px;
+      }
+  
+      h1{
+          color: #fff;
+      }
+  
+      
+  
+      .new-content {
+          padding: 70px 0;
+      }
+  
+      .new-btn {
+          margin-top: 20px;
+      }
+  
+      .sys-txt p {
+          font-size: 16px;
+      }
+  
+      .sys-1 {
+          color: rgb(25, 204, 204);
+          padding: 5px 10px;
+          font-weight: 600;
+          border: 1px solid white;
+          background-color: #fff;
+          border-radius: 20px;
+      }
+  
+      .sys-2 {
+          background: none;
+          border: 2px solid rgb(0, 134, 134);
+          border-radius: rgb(215, 81, 81);
+          padding: 5px 10px;
+          border-radius: 20px;
+          font-weight: 600;
+          color: rgb(0, 134, 134);
+      }
+  
+      .sys-content {
+          overflow: hidden;
+      }
+  
+      .sys-mainn {
+          padding: 120px 0 0 260px;
+      }
+  
+      .enquiry-form form {
+          width: 100%;
+          padding: 10px;
+          display: grid;
+          border: none;
+          outline: none;
+      }
+  
+      .enquiry-maill {
+          width: 100%;
+          border: none;
+          outline: none;
+      }
+  
+      .enquiry-maill input {
+          border-radius: 20px;
+          padding: 8px 19px;
+          border: none;
+          outline: none;
+      }
+  
+      .enquiry-maill label {
+          width: 100%;
+  
+      }
+  
+      .part-1 {
+          width: 49%;
+          margin-bottom: 15px;
+          border: none;
+          outline: none;
+      }
+  
+      .part-2 {
+          width: 49%;
+          margin-left: 25px;
+          margin-bottom: 15px;
+          border: none;
+          outline: none;
+      }
+  
+      textarea {
+          border-radius: 20px;
+          padding: 8px 19px;
+          margin: 15px 0;
+          border: none;
+          outline: none;
+      }
+  
+      .aboutus-head {
+          font-size: 40px;
+      }
+  
+      .owl{
+          margin-top: 50px;
+          text-align: center;
+      }
+  
+  
+  
+      .boxess-txt{
+          font-size: 13px;
+      }
+  
+  
+      .about-btn {
+          font-size: 17px;
+          border: 2px solid #6dbfd3;
+          border-radius: 20px;
+          background-color: white;
+          padding: 5px 25px;
+          font-weight: 700;
+      }
+  
+      .abt-1 {
+          background-color: #fff;
+          color: #6dbfd3;
+          border: 2px solid #fff;
+          padding: 5px 15px;
+          border-radius: 20px;
+          text-decoration: none;
+          font-size: 17px;
+      }
+  
+      .abt-2 {
+          background-color: transparent;
+          color: #fff;
+          border: 2px solid #6dbfd3;
+          padding: 5px 15px;
+          border-radius: 20px;
+          text-decoration: none;
+          font-size: 17px;
+          margin-left: 20px;
+  
+      }
+  
+      .abt-2:hover {
+          background-color: #fff;
+          color: #6dbfd3;
+      }
+  
+      .box-mainn {
+          margin: 5px 0 15px 0;
+          /* padding: 15px; */
+          box-shadow: 2px 2px 9px rgba(194, 194, 194, 0.295);
+          /* height: 520px; */
+      }
+  
+      
+      .box-text{
+          padding: 10px;
+          font-weight: 500;
+      }
+  
+      .box-text:hover{
+          background-color: rgb(98, 98, 98);
+          transition: 0.4s ease-in-out;
+          color: #fff;
+      }
+  
+  
+      .boxes-1 img {
+          padding-bottom: 10px;
+          object-fit: cover;
+      }
+  
+  
+      p {
+          margin-top: 15px;
+      }
+  
+      .form-bg {
+          background-image: url("https://www.acfixer.in/assets/images/service/bg-5.jpg");
+          background-size: cover;
+          height: 500px;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          margin: 20px 0px 0%;
+      }
+  
+      .form-btn {
+          background-color: #6dbfd3;
+          border-radius: 40px;
+          font-size: 19px;
+          border: none;
+          padding: 8px 15px;
+      }
+  
+      .form-btn:hover {
+          background-color: #6dbfd3;
+      }
+  
+      .abbt {
+          padding: 50px 0;
+      }
+  
+      .pro-head {
+          color: rgb(93, 208, 226);
+          font-size: 22px;
+          text-align: center;
+      }
+  
+      .pro-head2 {
+          color: black;
+          font-size: 35px;
+          font-weight: 600;
+          text-align: center;
+      }
+  
+      .protxt {
+          text-align: center;
+  
+      }
+  
+      h5{
+          text-align: center;
+          font-weight: 700;
+      }
+  
+      .back-head{
+          font: system-ui;
+      }
+  
+      .box-btn{
+          text-align: center;
+          color: #84cfe2;
+      }
+  
+      
+  
+      .foot-ul {
+          list-style-type: none;
+      }
+  
+  
+     
+  
+      .foot-head {
+          font-size: 20px;
+          font-weight: 600;
+          padding-bottom: 20px;
+  
+      }
+  
+      .foot-head a {
+          text-decoration: none;
+          color: black;
+      }
+  
+      .foot-li a:hover {
+          color: #39accb;
+  
+      }
+  
+      .foot-li a i {
+          padding-right: 5px;
+      }
+  
+      .foot-li {
+          padding: 0%;
+          margin: 10px;
+      }
+  
+      .foot-li a {
+          text-decoration: none;
+          color: black;
+      }
+  
+      .foot-txt {
+          font-size: 15px;
+          /* line-height: 20px; */
+      }
+  
+      .foter-box {
+          padding: 30px 0;
+      }
+  
+  
+      .footer {
+          background-color: rgba(212, 235, 255, 0.791);
+  
+      }
+  
+      #copy-right{
+          background-color: black;
+          color: #fff;
+      }
+
+      .social-icon{
+        margin: 10px;
+      }
+  
+      .social-icon a{
+          text-decoration: none;
+      }
+  
+      .social-icon i{
+          color: #fff;
+          padding: 10px;
+      }
+  
+      h4{
+          padding-top: 5px;
+      }
+  
+      
+
+      .about-btn{
+        margin: 0%;
+      }
+
+      
+  
+      
+      
+
+  
+  
+  
+  /* ---------------------------------------------------------About-us----------------------------------------------------------- */
+  
+  .banner-top-img{
+    position: relative;
+  }
+
+
+  .banner-text{
+    font-size: 20px;
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    color: #6dbfd3;
+    z-index: 1;
+ }
+
+ .page-breadcrumb{
+    display: flex;
+    list-style-type: none;
+    z-index: 1;
+ }
+  
+ .about-h1{
+    z-index: 1;
+ }
+  
+ .page-breadcrumb a{
+    color: #fff;
+ }
+  
+
+ .banner-top-img {
+    overflow-clip-margin : content-box;
+    overflow: clip;
+    vertical-align: middle;
+}
+
+
+/* -----------------------------------------------------------------GALLERY----------------------------------------------------- */
+
+
+.gallery-img{
+    margin: 20px 0;
+}
+
+.foot-find-map{
+       border: 2px solid #ffffff;
+       border-radius: 20px;
+       text-align: center;
+       margin-top: 20px;
+       cursor: pointer;
+}
+
+
+/* --------------------------------------------------------------CONTACT----------------------------------------------------- */
+
+.contact-container{
+    flex: 0 0 auto;
+    display: flex;
+    display: grid;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+     
+}
+
+.contact-container a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.contact-img{
+    width: 50px;
+    margin-left: 190px;
+    
+}
+
+
+
+.conatact-g-txt{
+    text-align: center;
+    padding: 15px;
+}
+
+.contact-head{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-txt{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-map{
+    text-align: center;
+    /* border: 2px solid #39accb; */
+    /* width: 200px; */
+    /* border-radius: 20px; */
+}
+
+.contact-map a:hover{
+    /* background-color: #39accb; */
+    color: #39accb;
+}
+
+
+.contact-enquiry-mail{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contact-bg{
+    border-bottom: 3px solid #3cd1f6;
+}
+
+.contact-enquiry-mail input{
+    width: 100%;
+    border: none;
+
+}
+
+.contact-enquiry-mail label{
+    width: 100%;
+    outline: none;
+
+}
+
+.contact-enquiry-mail textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.contact-txt-area{
+    border-radius: 5px;
+    
+}
+
+.contact-text{
+    text-align: center;
+    color: #39accb;
+    font-weight: 500;
+    margin-top: 28px;
+    font-size: 15px;
+}
+
+.contact-h2{
+    text-align: center;
+    color: black;
+
+}
+
+.contact-form-btn{
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.contact-head-2:hover{
+    color: #39accb;
+}
+
+.contact-form-btn:hover{
+    background-color: #39accb;
+}
+
+
+/* ---------------------------------------------Ductable Ac Installation--------------------------------------------------------- */
+
+.ductable-box{
+    margin: 50px 0%;
+}
+
+.ductable-box-img img{
+    margin: 50px 0%;
+    border-radius: 20px;
+}
+
+.duct-btn-btn {
+    border-radius: 20px;
+    padding: 8px 18px;
+    background-color: rgb(172, 170, 170);
+    border: 2px solid #39accb;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.duct-btn-btn:hover{
+    background-color: #39accb;
+    box-shadow: 2px 2px 6px #a0a0a0c3;
+}
+
+
+/* -----------------------------------------------------------fridge--------------------------------------------------------- */
+
+.fridge{
+    position: absolute;
+    top: 34%;
+    left: 30%;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+.enquiry-contact{
+    color: #39accb;
+    display: grid;
+    justify-content: center;
+}
+
+form input{
+    width: 100%;
+    margin: 10px 0%;
+    padding: 5px;
+}
+
+.enquiry-btn{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.submit-btn{
+    width: 100px;
+    padding: 0%;
+    border: 2px solid #39accb;
+    font-size: 15px;
+    background-color: aliceblue;
+    font-weight: 400;
+
+}
+.modal-backdrop {
+    z-index: 999 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+ @media screen and (max-width:800px) {
+    .navv {
+        display: none;
+    }
+}
+
+     
+@media screen and (max-width:800px) {
+    .back-images {
+        height: 450px;
+
+    }
+}
+
+     
+@media screen and (max-width:800px) {
+    .back-txt {
+        margin-bottom: 10px;
+    }
+}
+
+     
+@media screen and (max-width:800px) {
+    .back-main {
+        padding-top: 15px;
+    }
+}
+
+     
+@media screen and (max-width:800px) {
+    .new-content {
+        font-size: 15px;
+    }
+}
+
+     
+@media screen and (max-width:800px) {
+    .abbt {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .banner-text {
+        font-size: 15px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .about-h1 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .banner-top img{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .auto-container{
+        position: absolute;
+        top: 200px;
+        z-index: 1;
+        transform: translate(-28%, -55%);    
+        left: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .auto-container h1 {
+        /* color: #fff; */
+        font-size: 26px;
+        margin: 0px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .page-breadcrumb li {
+        position: relative;
+        display: inline-block;
+        margin-right: 4px;
+        padding-right: 6px;
+        /* color: #fff; */
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contact-img img{
+        margin-left: -80px;
+        padding: 0% ;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .ductable-box {
+        margin: 0%;
+    }
+}
+
+          
+@media screen and (max-width:800px) {
+    .ductable-box-img img{
+        margin: 10px 0%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .fridge{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .banner-top img{
+        height: 120px;
+    }
+}
+
