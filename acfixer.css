@@ -742,20 +742,29 @@ form input{
 }
 
 #preloader{
-    background: #fff  no-repeat center center;
-    background-size: 30%;
+    background: #fff no-repeat center center;
+    background-size: 20%;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     position: fixed;
     z-index: 99999; 
-/*     transition: all 0.6s ease-out; */
-   display: flex;
+    transition: all 0.6s ease-out;
+    display: flex;
       justify-content: center;
       align-items: center;
 }
 
 .iframe iframe{
     display: none;
+}
+
+.pre-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-left: 27%;
+    
 }
 
 
@@ -897,6 +906,23 @@ form input{
 @media screen and (max-width:800px) {
     .banner-top img{
         height: 120px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #preloader{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .pre-img img{
+        margin-left: 20%;
+        width: 40%;
     }
 }
 
