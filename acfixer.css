@@ -763,8 +763,12 @@ form input{
     justify-content: center;
     width: 100%;
     align-items: center;
-    margin-left: 27%;
     
+    
+}
+
+.pre-img img{
+   margin-left: 27%;
 }
 
 
@@ -919,9 +923,9 @@ form input{
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:750px) {
     .pre-img img{
-        margin-left: 20%;
+        margin-left: 30%;
         width: 40%;
     }
 }
